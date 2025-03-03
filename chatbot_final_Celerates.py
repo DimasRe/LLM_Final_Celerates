@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 #path_file = "/content/drive/MyDrive/Celerates MSIB/ALL Dataset/Copy of API key Gemini.xlsx"
 #API_KEY = pd.read_excel(path_file)["api_key"][1]
 
-API_KEY = "AIzaSyDh7sAqxYIUzWajFP2jC5i95uFq_CgE-_4"
+API_KEY = ""
 
 def chat(contexts, history, question):
     llm = ChatGoogleGenerativeAI(
